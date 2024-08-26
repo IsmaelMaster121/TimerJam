@@ -18,9 +18,13 @@ protected:
 public:
 	virtual void Tick(float DeltaTime) override;
 
+	UFUNCTION(BlueprintCallable, Category = "Timer")
 	void StartTimer();
+	UFUNCTION(BlueprintCallable, Category = "Timer")
 	void StopTimer();
+	UFUNCTION(BlueprintCallable, Category = "Timer")
 	void ResetTimer();
+	UFUNCTION(BlueprintCallable, Category = "Timer")
 	float GetElapsedTime() const;
 
 private:
