@@ -39,5 +39,5 @@ void AMyGameStateBasePrueba123::ResetTimer()
 
 float AMyGameStateBasePrueba123::GetElapsedTime() const
 {
-	return 0.0f;
+	return TimeElapsed;
 }
